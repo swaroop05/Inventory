@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="sale_btn">Sale</string>
+    <string name="product_name">Product Name</string>
+    <string name="type_here">Type Here</string>
+    <string name="current_qty">Qty</string>
+
+    <!-- Title for the activity to add a new inventory [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_inventory">Add an Item</string>
+    <!-- Title for the activity to edit a new inventory [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_Inventory">Edit an Item</string>
+
+    <!-- Label for editor menu option to save inventory and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <string name="product_price">Price in Dollars</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <!-- Toast message in editor when new inventory has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_item_successful">Product Saved</string>
+    <!-- Toast message in editor when new inventory has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_item_failed">Error with saving Product</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current inventory [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current inventory was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_successful">Item deleted</string>
+
+    <!-- Toast message in editor when current inventory has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_item_failed">Error with deleting inventory</string>
+    <string name="how_to_populate_db">DB is Empty.</string>
+    <string name="all_fields_mandatory_msg">All fields are mandatory. Including image</string>
+    <string name="quantity_error_msg">Qty cannot be greater than 10000.</string>
+    <string name="prices_error_msg">Price cannot be greater than 100000.</string>
+    <string name="phone_error_msg">Enter Phone number of 10 digits</string>
+    <string name="min_quantity_error">You cannot reduce quantity less than 0</string>
+    <string name="permission_denied_message">Since you denied permission, Cannot open gallery to load image</string>
+    <string name="are_you_sure">Are you sure</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
